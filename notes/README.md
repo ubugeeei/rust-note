@@ -29,6 +29,7 @@ links into the upstream source via `upstream/<path>:<line>` references.
 | 09 | [From source code to AST (lexing & parsing)](./09-source-to-ast.md) | done |
 | 10 | [Performance & robustness engineering](./10-performance-and-robustness.md) | done |
 | 11 | [How editions are implemented](./11-editions.md) | done |
+| 12 | [Optimization: MIR passes & where LLVM is invoked](./12-optimization-pipeline.md) | done |
 
 ## Suggested reading path (rustc)
 
