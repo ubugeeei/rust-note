@@ -30,6 +30,35 @@ links into the upstream source via `upstream/<path>:<line>` references.
 | 10 | [Performance & robustness engineering](./10-performance-and-robustness.md) | done |
 | 11 | [How editions are implemented](./11-editions.md) | done |
 | 12 | [Optimization: MIR passes & where LLVM is invoked](./12-optimization-pipeline.md) | done |
+| 13 | [MIR optimizations & transforms — a visual catalog](./13-mir-optimizations-catalog.md) | done |
+| 14 | [CFG simplification (`SimplifyCfg`) deep dive](./14-cfg-simplification.md) | done |
+| 15 | [Branch optimizations deep dive](./15-branch-optimizations.md) | done |
+| 16 | [Type inference: how it's implemented](./16-type-inference.md) | done |
+| 17 | [Lifetimes: region inference & NLL](./17-lifetimes.md) | done |
+| 18 | [Monomorphization deep dive](./18-monomorphization.md) | done |
+| 19 | [The HIR data format](./19-hir-format.md) | done |
+| 20 | [The MIR data format](./20-mir-format.md) | done |
+| 21 | [Arena allocation](./21-arena.md) | done |
+| 22 | [AST lowering (AST -> HIR)](./22-ast-lowering.md) | done |
+| 23 | [Rust's relationship with GCC](./23-gcc-relationship.md) | done |
+| 24 | [What "depends on libc" means](./24-libc-dependency.md) | done |
+| 25 | [SSA (Static Single Assignment)](./25-ssa.md) | done |
+| 26 | [Incremental compilation (dep graph)](./26-incremental.md) | done |
+| 27 | [What "passes" are in rustc](./27-passes.md) | done |
+| 28 | [Pattern analysis (exhaustiveness & usefulness)](./28-pattern-analysis.md) | done |
+| 29 | [`rustc_type_ir`: type-system IR abstraction](./29-type-ir.md) | done |
+| 30 | [The state of Rust's ABI](./30-abi-status.md) | done |
+| 31 | [SIMD in Rust](./31-simd.md) | done |
+| 32 | [Static vs dynamic dispatch](./32-static-dynamic-dispatch.md) | done |
+| 33 | [Governance, leadership & participation](./33-governance-participation.md) | done |
+| 34 | [Who manages Rust releases](./34-release-management.md) | done |
+| 35 | [Why Rust builds are slow](./35-why-builds-are-slow.md) | done |
+| 36 | [Notable Rust security advisories (CVEs)](./36-cve-summary.md) | done |
+| 37 | [rustc CI: jobs, runners, timing](./37-ci.md) | done |
+| 38 | [How Rust implements multithreading](./38-multithreading.md) | done |
+| 39 | [How closures are implemented](./39-closures.md) | done |
+| 40 | [How smart pointers are implemented](./40-smart-pointers.md) | done |
+| 41 | [Module visibility & item privacy](./41-visibility.md) | done |
 
 ## Suggested reading path (rustc)
 
