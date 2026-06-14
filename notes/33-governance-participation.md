@@ -43,8 +43,16 @@ From this repo's `CONTRIBUTING.md`:
 
 General flow: pick a `good first issue`/`E-mentor` issue → open a PR → `triagebot` assigns a reviewer and applies `S-waiting-on-*` labels → reviewer `r+` → merged via the bors/merge-queue "not rocket science" rule. **Joining a team** is by nomination from existing members after a track record of contributions — no application form.
 
+## Scale & who specifically (date-qualified, approximate)
+
+- **Team structure:** ~7–8 top-level teams (Leadership Council, Compiler, Library, Lang, Dev tools, Infrastructure, Launching Pad, Moderation), each with subteams and working groups. The authoritative roster is the `rust-lang/team` repo.
+- **Headcount:** total membership across all teams is on the order of a few hundred people (volunteers + company-paid). Unique contributors to `rust-lang/rust` number in the thousands over the project's history; each release blog thanks a few hundred contributors.
+- **Who is paid, and by whom (representative, shifts over time):** historically Mozilla-led; now engineers paid by **AWS, Microsoft, Google, Huawei**, plus specialist firms **Ferrous Systems, Embecosm**, and others (Arm, Futurewei, ...).
+- **No single owner/CEO of the language.** The closest to a "CEO" is the Rust Foundation's executive director — an operational role that does **not** make technical/language decisions.
+- **In-repo evidence of team ownership:** `triagebot.toml` labels (`T-compiler`, `T-lang`, `T-libs`, `T-infra`, `T-release`, `T-types`, `T-rustdoc`, `T-clippy`, `T-rust-analyzer`, ...) map areas to teams.
+
 ## See also
 
-- [[03-governance-and-business]] · [[34-release-management]] · [[07-glossary]]
+- [[03-governance-and-business]] · [[34-release-management]] · [[42-docs-playground-design]] · [[07-glossary]]
 
 Sources: blog.rust-lang.org/2023/06/20/introducing-leadership-council/ · rust-lang.github.io/rfcs/3392-leadership-council.html · www.rust-lang.org/governance · rustc-dev-guide.rust-lang.org · in-repo `CONTRIBUTING.md`, `triagebot.toml`

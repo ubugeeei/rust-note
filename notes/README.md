@@ -59,6 +59,8 @@ links into the upstream source via `upstream/<path>:<line>` references.
 | 39 | [How closures are implemented](./39-closures.md) | done |
 | 40 | [How smart pointers are implemented](./40-smart-pointers.md) | done |
 | 41 | [Module visibility & item privacy](./41-visibility.md) | done |
+| 42 | [Who designs the docs sites & Playground](./42-docs-playground-design.md) | done |
+| 43 | [Self-hosting stages & "codenames"](./43-self-hosting-stages-codenames.md) | done |
 
 ## Suggested reading path (rustc)
 
